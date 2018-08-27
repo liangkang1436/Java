@@ -26,6 +26,7 @@ public class genericheap<T> { // create a generic heap class <T> , where T can b
 
 	public void add(T integer) { // in this function we have added the <t> type object into the arraylist and called upheapify 
 		data.add(integer);
+		System.out.printLine("12121212");
 		upheapify(data.size() - 1);
 	}
 
